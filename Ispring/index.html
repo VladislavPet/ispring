@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xlmns="http://w3.org/1999/xhtml">
+<head>
+
+     
+     <link rel="icon" type="image/vnd.microsoft.icon" href="123.ico">
+
+  <title>ISpring Calculator </title>
+
+
+</head>
+
+
+<body style="background-color: rgb(255, 192, 149);">
+<h1 align="center"><font face="arial, helevica"><strong><u>ISpring
+ Calculator</u></strong></font></h1>
+
+
+<script language="javaScript" type="text/javaScript" src="complex.js">
+
+
+
+</script>
+<form method="post" name="calc" id="calc">
+  <table style="height: 200px; width: 500px;" align="center" bgcolor="#FFEBCD	" border="5" cellpadding="14"   cellspacing="0">
+  
+    <tbody>
+
+      <tr>
+
+        <td colspan="6" align="center"><input name="button" id="button" maxlength="50" size="60" value="0" type="text"></td>
+
+        <td align="center"><input name="btclear" value="  C /CE  " onClick="Clear()" type="button"></td>
+
+        <td align="center"><input name="equals" value="     =     " onClick="Answer()" type="button"></td>
+
+      </tr>
+
+      <tr>
+
+        <td align="center"><input name="Seven" value="  7  " onClick="AddAChar('7')" type="button"></td>
+
+        <td align="center"><input name="Eight" value="  8  " onClick="AddAChar('8')" type="button"></td>
+
+        <td align="center"><input name="Nine" value="  9  " onClick="AddAChar('9')" type="button"></td>
+
+        <td align="center"><input name="btplus" value="  +  " onClick="AddAChar('+')" type="button"></td>
+
+        <td align="center"><input name="btsub" value="  -  " onClick="AddAChar('-')" type="button"></td>
+
+        <td align="center"><input name="btsin" value="  sin  " onClick="sin()" type="button"></td>
+
+        <td align="center"><input name="btcos" value="  cos  " onClick="cos()" type="button"></td>
+
+        <td align="center"><input name="bttan" value="  tan  " onClick="tan()" type="button"></td>
+
+      </tr>
+
+      <tr>
+
+        <td align="center"><input name="Four" value="  4  " onClick="AddAChar('4')" type="button"></td>
+
+        <td align="center"><input name="Five" value="  5  " onClick="AddAChar('5')" type="button"></td>
+
+        <td align="center"><input name="Six" value="  6  " onClick="AddAChar('6')" type="button"></td>
+
+        <td align="center"><input name="btmult" value="  x  " onClick="AddAChar('*')" type="button"></td>
+
+        <td align="center"><input name="btdiv" value="  /  " onClick="AddAChar('/')" type="button"></td>
+
+        <td align="center"><input name="btasin" value=" asin " onClick="asin()" type="button"></td>
+
+        <td align="center"><input name="btacos" value=" acos " onClick="acos()" type="button"></td>
+
+        <td align="center"><input name="btatan" value=" atan " onClick="atan()" type="button"></td>
+
+      </tr>
+
+
+      <tr>
+
+        <td align="center"><input name="One" value="  1  " onClick="AddAChar('1')" type="button"></td>
+
+        <td align="center"><input name="Two" value="  2  " onClick="AddAChar('2')" type="button"></td>
+
+        <td align="center"><input name="Three" value="  3  " onClick="AddAChar('3')" type="button"></td>
+
+        <td align="center"><input name="Percent" value="  %  " onClick="percent()" type="button"></td>
+
+        <td align="center"><input name="Sqrt" value=" sqrt " onClick="sqrt()" type="button"></td>
+
+        <td align="center"><input name="Pi" value="  Pi   " onClick="pi()" type="button"></td>
+
+        <td align="center"><input name="cubbut" value=" x^2 " onClick="square()" type="button"></td>
+		
+	     <td align="center"><input name="e" value=" e^1 " onClick="Euler()" type="button"></td>
+
+        
+
+      </tr>
+
+      <tr>
+
+        <td align="center"><input name="Zero" value="  0  " onClick="AddAChar('0')" type="button"></td>
+
+        <td align="center"><input name="TwoZeroes" value="  00  " onClick="AddAChar('00')" type="button"></td>
+
+        <td align="center"><input name="dot" value="  .  " onClick="AddAChar('.')" type="button"></td>
+
+        <td align="center"><input name="neg" value="  +/-  " onClick="negative()" type="button"></td>
+		
+		    <td align="center"><input name="rounding" value=" round " onClick="Round()" type="button"></td>
+ 
+        <td align="center"><input name="btrdm" value=" Rdm " onClick="rand()" type="button"></td>
+
+        <td align="center"><input name="btlog" value="  log  " onClick="Log()" type="button"></td>
+
+        <td align="center"><input name="btln" value="    ln    " onClick="natLog()" type="button"></td>
+
+      </tr>
+
+    </tbody>
+  </table>
+</form>
+</body>
+</html>
